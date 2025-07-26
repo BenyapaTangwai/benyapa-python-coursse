@@ -5,7 +5,7 @@ Date: 25 July 2025
 Purpose: Calculate monthly budget and savings
 """
 
-monthly_income = float(input("Enter your monthly income(THB): "))#รับค่า รายได้ต่อเดือนจากผู้ใช้
+monthly_income = float(input("Enter your Monthly income(THB): "))#รับค่า รายได้ต่อเดือนจากผู้ใช้
 rent_cost = float(input("Enter your Monthly rent/housing cost: "))#รับค่า ค่าเช่าต่อเดือนของผู้ใช้
 food_budget = int(input("Enter your Monthly food budget(THB): "))#รับค่า ค่ากินต่อเดือนของผู้ใช้
 transportation_cost = float(input("Enter your Monthly transportation expenses: "))#รับค่า ค่าเดินทางต่างๆต่อเดือนของผู้ใช้
