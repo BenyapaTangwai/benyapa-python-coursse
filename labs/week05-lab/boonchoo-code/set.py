@@ -13,11 +13,11 @@ print(f"Original list: {list_with_duplicates}")
 print(f"Set (unique): {unique_numbers}")
 
 # Set from string
-char_set = set("hello")
+char_set = set("hello") #{'h','e','l','o'}
 print(f"Characters in 'hello': {char_set}")
 
 # Set comprehension
-squares = {x**2 for x in range(1, 6)}
+squares = {x**2 for x in range(1, 6)}#{1,4,9,16,25}
 print(f"Squares: {squares}")
 
 print(f"Colors: {colors}")
