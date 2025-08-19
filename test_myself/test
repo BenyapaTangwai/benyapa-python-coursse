@@ -1,0 +1,42 @@
+#ข้อที่ 1
+student_name = "Alice"
+midterm = 95
+final = 85
+homework = 82
+
+total_score = (midterm * 0.3) + (final * 0.4) + (homework * 0.3)
+print(student_name, "total score:", total_score)
+
+#ข้อที่ 2
+print()
+def cheak_score(score):
+    if score >= 80:
+        print("very good")
+    elif score <= 79 and score >= 70:
+        print("good")
+    elif score <= 69 and score >= 60:
+        print("normal")
+    elif score < 60:
+        print("bra bra bra improved")
+    else:
+        print("ERROR")
+
+cheak_score(85)
+cheak_score(75)
+cheak_score(65)
+cheak_score(55)
+
+#ข้อที่ 3
+print()
+score = [75,56,89,95,92,45,75,62,88]
+i = 0
+count = 0
+print(f"max score: {max(score)}")
+print(f"min score: {min(score)}")
+print(f"average score: {sum(score)/len(score)}")
+for i in score:
+    if i > 80:
+        count += 1
+    else:
+        continue
+print(f"amount of student score > 80: {count}")
