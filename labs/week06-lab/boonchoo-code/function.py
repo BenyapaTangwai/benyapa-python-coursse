@@ -301,7 +301,7 @@ print("\n=== PART 7: ADVANCED EXAMPLES ===")
 # Example 1: Text analyzer
 def analyze_text(text):
     """Analyzes text and returns statistics"""
-    words = len(text.split())
+    words = len(text.split())#มีกี่ word จากการเว้น space
     chars_with_spaces = len(text)
     chars_without_spaces = len(text.replace(" ", ""))
     sentences = text.count('.') + text.count('!') + text.count('?')
@@ -312,6 +312,7 @@ def analyze_text(text):
         'characters_without_spaces': chars_without_spaces,
         'sentences': sentences
     }
+
 
 sample_text = "Hello world! How are you today? This is a sample text for analysis."
 print("Text Analysis:")
